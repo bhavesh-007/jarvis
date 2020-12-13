@@ -83,10 +83,6 @@ if __name__ == "__main__":
             speak('Playing.. ' + song + 'on youtube')
             pywhatkit.playonyt(song)
 
-        if 'message in whatsapp' in query:
-            msg = query
-            speak("tell me the number to send")
-            takecmd()
-            print(query)
         else:
+            speak("sir please kindly check what you said")
             speak("ready to hear new command sir")
