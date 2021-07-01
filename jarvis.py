@@ -88,5 +88,10 @@ if __name__ == "__main__":
             speak("tell me the number to send")
             takecmd()
             print(query)
+        if 'my mother' in query:
+            msg = query
+            speak("Mother of mr,programmer is, manju,mahawar,she is 45 year old.")
+            takecmd()
+            print(query)
         else:
             speak("ready to hear new command sir")
